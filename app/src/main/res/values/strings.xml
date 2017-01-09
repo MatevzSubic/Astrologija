@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">Novorojenčki</string>
+    <string name="i_i">IŠČI</string>
+    <string name="pozdravljeni_v_aplikaciji_imena_novorojen_kov_za_iskanje_izbranih_imen_v_posameznem_letu_kliknite_i_i">Pozdravljeni v aplikaciji Imena novorojenčkov. Za iskanje izbranih imen v posameznem letu kliknite IŠČI.</string>
+    <string name="imena_novorojen_kov">Imena novorojenčkov</string>
+    <string name="title_activity_scrolling">ScrollingActivity</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="textview">TextView</string>
+    <string name="name">Name</string>
+    <string name="textview1">TextView</string>
+    <string name="button">Button</string>
+    <string name="ozna_ite_spol">Označite spol:</string>
+    <string name="vpi_ite_ime">Vpišite ime:</string>
+    <string name="izpis">Izpis:</string>
+    <string name="poka_i_graf">Pokaži graf</string>
+    <string name="i_is">Išči</string>
+    <string name="button1">Button</string>
+    <string name="button3">Button</string>
+    <string name="graf">Graf</string>
+    <string-array name="spol">
+        <item>M</item>
+        <item>Ž</item>
+    </string-array>
+    <string-array name="leto">
+        <item>Posamezno</item>
+        <item>Skupaj</item>
+        <item>2015</item>
+        <item>2014</item>
+        <item>2013</item>
+        <item>2012</item>
+        <item>2011</item>
+        <item>2010</item>
+        <item>2009</item>
+        <item>2008</item>
+        <item>2007</item>
+        <item>2006</item>
+        <item>2005</item>
+        <item>2004</item>
+        <item>2003</item>
+        <item>2002</item>
+        <item>2001</item>
+        <item>2000</item>
+        <item>1999</item>
+        <item>1998</item>
+        <item>1997</item>
+        <item>1996</item>
+        <item>1995</item>
+        <item>1994</item>
+        <item>1993</item>
+        <item>1992</item>
+    </string-array>
+</resources>

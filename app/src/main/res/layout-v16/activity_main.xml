@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/activity_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:paddingBottom="@dimen/activity_vertical_margin"
+android:paddingLeft="@dimen/activity_horizontal_margin"
+android:paddingRight="@dimen/activity_horizontal_margin"
+android:paddingTop="@dimen/activity_vertical_margin"
+android:background="@drawable/ozadje"
+tools:context="adlucem.matevzsubic.novorojencki.MainActivity">
+
+<Button
+    android:text="@string/i_i"
+    android:layout_width="match_parent"
+    android:id="@+id/button"
+    android:textColor="@color/white"
+    android:background="@drawable/dolg"
+    android:onClick="onClick"
+    android:layout_height="100dp"
+    android:layout_marginBottom="80dp"
+    android:textSize="30sp"
+    android:textStyle="normal|bold"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+    android:text="@string/pozdravljeni_v_aplikaciji_imena_novorojen_kov_za_iskanje_izbranih_imen_v_posameznem_letu_kliknite_i_i"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/textView3"
+    android:textAlignment="center"
+    android:textStyle="normal|bold|italic"
+    android:textColor="@color/darkdarkblue"
+    android:layout_marginBottom="87dp"
+    android:layout_above="@+id/button"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <TextView
+        android:text="Imena novorojenčkov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView2"
+        android:textSize="24sp"
+        android:layout_marginBottom="89dp"
+        android:textColor="@color/darkblue"
+        android:typeface="serif"
+        android:textStyle="normal|bold"
+        android:fontFamily="sans-serif"
+        android:textAllCaps="true"
+        android:layout_above="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
